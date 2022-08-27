@@ -1,0 +1,57 @@
+/* Import the Nunito weight 600 font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+    background-color: #acffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+hr {
+    border-color: rgb(180, 180, 180);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: #8cffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 32px;
+}
+
+button:hover {
+    background-color: #82eaea;
+    color: #000000;
+}
+
+footer {
+    background-color: #8ff8f8;
+    padding: 10px;
+    margin: 10px;
+    border-top: 1px solid rgb(240, 240, 240);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+i {
+    font-size: 1.5em;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro-text {
+    margin: 0 10vw;
+}
